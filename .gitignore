@@ -1,2 +1,7 @@
 node_modules
 build
+.DS_Store
+dist
+dist-ssr
+*.local
+.DS_Store
