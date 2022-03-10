@@ -2,14 +2,15 @@
 
 ## Instructions
 
+
 ### Click To Filter
-![click](./ClickToFilter.png)
+<!-- ![click](./ClickToFilter.png) -->
 
 ### Filter By Season Or By Status
-![filter](./DrawerOpen.png)
+<!-- ![filter](./DrawerOpen.png) -->
 
 ### Search By Name And Use Pagination
-![filter](./SearchByNameAndPagination.png)
+<!-- ![filter](./SearchByNameAndPagination.png) -->
 
 ## Available Scripts
 
