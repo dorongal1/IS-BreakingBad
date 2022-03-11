@@ -7,7 +7,7 @@ import CharGallery from './CharGallery';
 import FilterDrawer from './FilterDrawer';
 
 
-const BreakingBed = () => {
+const BreakingBad = () => {
 
     const [charsData, setCharsData] = useState([])
     const [fullCharsData, setFullCharsData] = useState([])
@@ -113,4 +113,4 @@ const BreakingBed = () => {
 
     )
 }
-export default BreakingBed
+export default BreakingBad

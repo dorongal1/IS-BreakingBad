@@ -1,4 +1,4 @@
-# Breaking Bed - By Gal Doron
+# Breaking Bad - By Gal Doron
 
 ## Instructions
 

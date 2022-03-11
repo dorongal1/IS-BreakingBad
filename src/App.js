@@ -1,5 +1,5 @@
 import './App.css';
-import BreakingBed from './components/BreakingBed';
+import BreakingBad from './components/BreakingBad';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import { Box } from '@mui/system';
 
@@ -20,7 +20,7 @@ function App() {
   return (
     <div className="App" >
       <ThemeProvider theme={theme}>
-        <BreakingBed ></BreakingBed>
+        <BreakingBad ></BreakingBad>
       </ThemeProvider>
     </div >
   );
