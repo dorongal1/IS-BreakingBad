@@ -43,12 +43,14 @@ const BreakingBad = () => {
             getTotalByName()
         } else {
             setPage(1)
-            fetchFullChar()
-            setCheckedSeasons([1, 2, 3, 4, 5])
-            setCheckedStatus([])
+            setCheckedStatus([...checkedStatus])
             setPageCapcity(0)
         }
     }, [searchName])
+
+    useEffect(() => {
+        fetchFullChar()
+    }, [])
 
     useEffect(() => {
         if (fullCharsData.length > 0) {
