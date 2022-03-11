@@ -8,7 +8,7 @@ const CharCard = ({ charData }) => {
 
 
     return (
-        <Grid item sm={12} md={6} lg={4}>
+        <Grid data-testid={`CharCard-${charData.char_id}`} item sm={12} md={6} lg={4}>
             <Box
                 sx={{
                     display: 'flex',
@@ -16,7 +16,7 @@ const CharCard = ({ charData }) => {
                     bgcolor: 'background.paper',
                     borderRadius: 15,
                     boxShadow: 5,
-                    minHeight:{md:260,xl:300}
+                    minHeight: { md: 260, xl: 300 }
                 }}
             >
                 <Box
