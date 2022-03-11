@@ -44,6 +44,8 @@ const BreakingBad = () => {
         } else {
             setPage(1)
             fetchFullChar()
+            setCheckedSeasons([1, 2, 3, 4, 5])
+            setCheckedStatus([])
             setPageCapcity(0)
         }
     }, [searchName])
