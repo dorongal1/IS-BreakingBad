@@ -1,7 +1,6 @@
 import './App.css';
 import BreakingBad from './components/BreakingBad';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
-import { Box } from '@mui/system';
 
 
 const theme = createTheme({
