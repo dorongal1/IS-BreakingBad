@@ -100,7 +100,7 @@ const BreakingBed = () => {
             </Grid>
 
             <Box sx={{ backgroundColor: 'white', borderRadius: 15, py: 2 }}>
-                <CharGallery charsData={charsData} />
+                <CharGallery searchName={searchName} charsData={charsData} />
             </Box>
 
 

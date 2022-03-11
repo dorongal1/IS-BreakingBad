@@ -3,13 +3,13 @@ import Grid from '@mui/material/Grid';
 import CharCard from './CharCard'
 import CircularLoading from './CircularLoading'
 
-const CharGallery = ({ charsData }) => {
+const CharGallery = ({ charsData, searchName }) => {
 
 
 
     return (
         <Grid data-testid={`CharGallery_1`} container spacing={5} sx={{ p: { lg: 5, xs: 2 } }}>
-            {charsData.length === 0 ? <CircularLoading /> : ``}
+            {charsData.length === 0 && searchName.length === 0 ? <CircularLoading /> : ``}
             {charsData.map(char =>
                 <CharCard key={char.char_id} charData={char}></CharCard>
             )}
